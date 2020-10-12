@@ -65,15 +65,19 @@ span {
     color: #FFFFFF;
     padding: 8px 25px;
     font-size: 18px;
-    border: none;
+    border: 1px solid #F0AD4E;
     border-radius: 30px;
     height: 43px;
     width: 193.73px;
-    cursor: pointer;
     margin: 5% 42%;
+    list-style: none;
 }
 
-@media only screen and (max-width: 270px) {
+.blog-btn:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
     .first-section {
         display: flex;
         flex-direction: column;
@@ -82,8 +86,7 @@ span {
     .blog-2 {
         margin-top: 20px;
     }
-    .blogs,
-    .blog-btn {
+    .blogs {
         width: 100%;
     }
 }
