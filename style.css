@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    /* width: 100%; */
 }
 
 .blogs-container {
@@ -42,6 +41,7 @@
 
 .first-section {
     display: flex;
+    flex-wrap: wrap;
     margin: 3% 10%;
 }
 
@@ -49,7 +49,7 @@
     margin-left: 20px;
 }
 
-span {
+.span-blog {
     color: #EC971F;
     font-size: 15px;
 }
@@ -70,7 +70,7 @@ span {
     height: 43px;
     width: 193.73px;
     margin: 5% 42%;
-    list-style: none;
+    outline: none;
 }
 
 .blog-btn:hover {
@@ -79,7 +79,6 @@ span {
 
 @media only screen and (max-width: 600px) {
     .first-section {
-        display: flex;
         flex-direction: column;
     }
     .blog-4,
