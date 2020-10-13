@@ -19,6 +19,7 @@ header {
   border-style: solid;
   border-width: thin;
   padding: 0px 15px;
+  align-items: center;
 }
 nav {
   width: 100%;
@@ -79,6 +80,9 @@ nav {
   margin-top: 39px;
 }
 .menu-icon {
+  display: none;
+}
+.search-icon {
   display: none;
 }
 
@@ -152,5 +156,14 @@ footer p {
 
   .menu-icon {
     display: block;
+  }
+  .search-icon {
+    display: block;
+  }
+  #search {
+    display: none;
+  }
+  .about-place {
+    margin-top: 50px;
   }
 }
