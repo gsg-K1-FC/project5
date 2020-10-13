@@ -25,7 +25,7 @@ nav {
 }
 
 /* Style the links inside the header section */
-ul li a {
+.items a {
   text-decoration: none;
   cursor: pointer;
   color: #777777;
@@ -36,13 +36,8 @@ ul li a {
   height: 50px;
   cursor: pointer;
 }
-
-/*  style the elemints inside the navegation bar */
-#benefit-item,
-#blog-item,
-#login-item,
-#resister-item,
-#work-item {
+/*  collecte the  items that have the same style */
+.item-menu {
   height: 40px;
   font-size: 13px;
   border-style: solid;
@@ -53,8 +48,9 @@ ul li a {
   font-weight: 400px;
   display: block;
 }
+
 .items {
-  /* margin-left: 60px; */
+  margin-left: 60px;
   list-style: none;
   display: flex;
 }
@@ -95,12 +91,12 @@ ul li a {
 
   transform: translate(-50%, -50%);
 }
-h2 {
+.about-place {
   font-size: 30px;
   color: #474747;
   font-weight: 400px;
 }
-h2 span {
+.about-place span {
   color: white;
   background-color: #ec971f;
   font-size: 38px;
@@ -109,7 +105,7 @@ h2 span {
   margin-top: 10px;
   padding: 3px 12px;
 }
-p {
+.paragraph {
   margin: 15px 0px 0px;
   font-size: 16px;
   line-height: 30px;
@@ -134,9 +130,10 @@ footer p {
   color: #898989;
 }
 /* Style the search box inside the header section */
-#search input[type="text"] {
+#search {
   padding: 6px;
-  margin-right: 300px;
+  height: 25px;
+  margin-right: 100px;
   border: 1px solid #d3d3d3;
   background-color: #f8f8f8;
   border-radius: 4px;
