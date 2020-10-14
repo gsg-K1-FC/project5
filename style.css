@@ -1,169 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
 /* 
   style the Header section 
   */
+
 header {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 40px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  border-style: solid;
-  border-width: thin;
-  padding: 0px 15px;
-  align-items: center;
-}
-nav {
-  width: 100%;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-style: solid;
+    border-width: thin;
+    padding: 0px 15px;
+    align-items: center;
 }
 
+nav {
+    width: 100%;
+}
+
+
 /* Style the links inside the header section */
+
 .items a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #777777;
+    text-decoration: none;
+    cursor: pointer;
+    color: #777777;
 }
 
 .logo {
-  width: 265px;
-  height: 50px;
-  cursor: pointer;
+    width: 265px;
+    height: 50px;
+    cursor: pointer;
 }
+
+
 /*  collecte the  items that have the same style */
+
 .item-menu {
-  height: 40px;
-  font-size: 13px;
-  border-style: solid;
-  border-width: thin;
-  border-color: #d3d3d3;
-  border-top: none;
-  text-align: center;
-  font-weight: 400px;
-  display: block;
+    height: 40px;
+    font-size: 13px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d3d3d3;
+    border-top: none;
+    text-align: center;
+    font-weight: 400px;
+    display: block;
 }
 
 .items {
-  margin-left: 60px;
-  list-style: none;
-  display: flex;
+    margin-left: 60px;
+    list-style: none;
+    display: flex;
 }
+
 #benefit-item {
-  width: 80.46px;
+    width: 80.46px;
 }
+
 #blog-item {
-  width: 63.89px;
+    width: 63.89px;
 }
+
 #work-item {
-  width: 125.13px;
+    width: 125.13px;
 }
+
 #login-item {
-  width: 64px;
+    width: 64px;
 }
+
 #resister-item {
-  width: 80.22px;
+    width: 80.22px;
 }
 
 .landing-container {
-  position: relative;
+    position: relative;
 }
+
 .landing-img {
-  width: 100%;
-  height: 400px;
-  margin-top: 39px;
+    width: 100%;
+    height: 400px;
+    margin-top: 39px;
 }
+
 .menu-icon {
-  display: none;
+    display: none;
 }
+
 .search-icon {
-  display: none;
+    display: none;
 }
+
 
 /* style the content inside the pictures */
-.content {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
 
-  transform: translate(-50%, -50%);
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .about-place {
-  font-size: 30px;
-  color: #474747;
-  font-weight: 400px;
+    font-size: 30px;
+    color: #474747;
+    font-weight: 400px;
 }
+
 .about-place span {
-  color: white;
-  background-color: #ec971f;
-  font-size: 38px;
-  font-weight: 600px;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 3px 12px;
+    color: white;
+    background-color: #ec971f;
+    font-size: 38px;
+    font-weight: 600px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px 12px;
 }
+
 .paragraph {
-  margin: 15px 0px 0px;
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: capitalize;
-  letter-spacing: 0.5px;
+    margin: 15px 0px 0px;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
 }
+
+.blogs-container {
+    color: #474747;
+}
+
+.blogs-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blogs-title {
+    font-size: 35px;
+    width: 204.7px;
+    height: 50px;
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.h3-blogs {
+    margin: 15px 0;
+    width: 215px;
+    height: 84px;
+    font-size: 22px;
+}
+
+.blogs-imgs {
+    width: 216px;
+    height: 162px;
+    border: 1px solid #EC971F;
+    border-radius: 4.5px;
+    padding: 1px;
+}
+
+.blogs {
+    display: flex;
+    border-bottom: 1px dashed #ddd;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.sp-blog {
+    margin-left: 20px;
+}
+
+.span-blog {
+    color: #EC971F;
+    font-size: 15px;
+}
+
+.p-blogs {
+    font-size: 13px;
+    width: 215px;
+    height: 132px;
+}
+
+.blog-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-btn {
+    background-color: #F0AD4E;
+    color: #FFFFFF;
+    padding: 8px 25px;
+    font-size: 18px;
+    border: 1px solid #F0AD4E;
+    border-radius: 30px;
+    height: 43px;
+    margin: 20px 0;
+    outline: none;
+}
+
+.blog-btn:hover {
+    cursor: pointer;
+}
+
+
 /* style the footer section*/
+
 footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #353535;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #353535;
+    width: 100%;
 }
+
 footer p {
-  color: #bbbbbb;
-  font-size: 13px;
-  margin-left: 13px;
+    color: #bbbbbb;
+    font-size: 13px;
+    margin-left: 13px;
 }
+
+
 /* style the link inside footer section*/
+
 .copy-right a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #898989;
+    text-decoration: none;
+    cursor: pointer;
+    color: #898989;
 }
+
+
 /* Style the search box inside the header section */
+
 #search {
-  padding: 6px;
-  height: 25px;
-  margin-right: 100px;
-  border: 1px solid #d3d3d3;
-  background-color: #f8f8f8;
-  border-radius: 4px;
+    padding: 6px;
+    height: 25px;
+    margin-right: 100px;
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    border-radius: 4px;
 }
+
+
 /* style the pictures with media query  */
 
 @media screen and (max-width: 920px) {
-  .logo {
-    width: 150px;
-  }
+    .logo {
+        width: 150px;
+    }
 }
-@media screen and (max-width: 753px) {
-  .items {
-    display: none;
-  }
 
-  .menu-icon {
-    display: block;
-  }
-  .search-icon {
-    display: block;
-  }
-  #search {
-    display: none;
-  }
-  .about-place {
-    margin-top: 50px;
-  }
+@media screen and (max-width: 753px) {
+    .items {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .search-icon {
+        display: block;
+    }
+    #search {
+        display: none;
+    }
+    .about-place {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .first-section {
+        flex-direction: column;
+    }
+    .blog-4,
+    .blog-2 {
+        margin-top: 20px;
+    }
+    .blogs {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
 }
