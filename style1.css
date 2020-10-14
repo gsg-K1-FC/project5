@@ -63,6 +63,7 @@ margin-left: 30px;
 margin-top: 100px;
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 /* color: #ec971f; */
 }
 .icone1{
@@ -115,8 +116,6 @@ i{
     color: #474747;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
-    
-    font-size: 13px;
     line-height: 1.42857143;
     width: 270px;
     text-align: center;
@@ -165,6 +164,7 @@ i{
  @media  screen and (max-width: 600px){
     .icons{
         flex-direction: column;
+        align-items: center;
     }
 
 }
