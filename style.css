@@ -143,11 +143,16 @@ nav {
     color: #474747;
 }
 
+.blogs-title-container {
+    display: flex;
+    justify-content: center;
+}
+
 .blogs-title {
     font-size: 35px;
     width: 204.7px;
     height: 50px;
-    margin: 5% 40%;
+    margin: 20px 0;
     text-align: center;
     border-bottom: 2px solid #ddd;
 }
@@ -169,14 +174,14 @@ nav {
 
 .blogs {
     display: flex;
-    margin-left: 50px;
     border-bottom: 1px dashed #ddd;
 }
 
 .first-section {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin: 3% 10%;
+    margin-bottom: 20px;
 }
 
 .sp-blog {
@@ -194,6 +199,11 @@ nav {
     height: 132px;
 }
 
+.blog-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .blog-btn {
     background-color: #F0AD4E;
     color: #FFFFFF;
@@ -202,8 +212,7 @@ nav {
     border: 1px solid #F0AD4E;
     border-radius: 30px;
     height: 43px;
-    width: 193.73px;
-    margin: 5% 42%;
+    margin: 20px 0;
     outline: none;
 }
 
@@ -285,5 +294,7 @@ footer p {
     }
     .blogs {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 }
